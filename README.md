@@ -22,7 +22,7 @@ Sentences and J-HMDB Sentences show that our proposed approach notably outperfor
 ## Run
 Environment: Python 3.8.2, Pytorch 1.4.0, CUDA 10.1, 1 GPU (>11GB), RAM (>160GB), ROM (>200GB)
 
-Data: A2D extracted feature ([BaiduNetDisk 163GB](https://pan.baidu.com/s/1w_QbF9fBB62Ti36Zrl9JMQ), passwd: wui0), JHMDB extracted feature ([BaiduNetDisk 23GB](https://pan.baidu.com/s/1C6_iXsKLcd-Fpa3-ZtZ9gg), passwd: d7vw),
+Data: A2D extracted feature ([BaiduNetDisk 163GB](https://pan.baidu.com/s/1WNfPp7t7YAO5MnSnaABTPQ), passwd: abzr), JHMDB extracted feature ([BaiduNetDisk 23GB](https://pan.baidu.com/s/1C6_iXsKLcd-Fpa3-ZtZ9gg), passwd: d7vw),
  pretrained model ([BaiduNetDisk 666MB](https://pan.baidu.com/s/1rVMa3KxQapSR34sScgUEkg), passwd: jtzu)
 ```bash
 cat a2d_data.tara* | tar xvf -C dataset/A2D/preprocessed/

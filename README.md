@@ -17,7 +17,7 @@ visual context simultaneously. Moreover, we adopt multiresolution fusion scheme 
 and background pixels to obtain further performance improvement. Extensive experiments on Actor-Action Dataset
 Sentences and J-HMDB Sentences show that our proposed approach notably outperforms state-of-the-art methods.
 
-<img src="upload/framework.png" width=40% height=40% div align=center/>
+![image](upload/framework.png)  
 
 ## Run
 Environment: Python 3.8.2, Pytorch 1.4.0, CUDA 10.1, 1 GPU (>11GB), RAM (>160GB), ROM (>200GB)

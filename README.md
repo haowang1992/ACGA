@@ -22,8 +22,8 @@ Sentences and J-HMDB Sentences show that our proposed approach notably outperfor
 ## Run
 Environment: Python 3.8.2, Pytorch 1.4.0, CUDA 10.1, 1 GPU (>11GB), RAM (>160GB), ROM (>200GB)
 
-Data: A2D extracted feature ([BaiduNetDisk 163GB](https://pan.baidu.com/s/1WNfPp7t7YAO5MnSnaABTPQ) [OneDrive](https://stuxidianeducn-my.sharepoint.com/:u:/g/personal/hwang_3_stu_xidian_edu_cn/EYfzTsHZnW9Gun6XVIjwHowB-PMACTBeDtVSN8SiXmI0pQ?e=shHvl8), passwd: abzr), JHMDB extracted feature ([BaiduNetDisk 23GB](https://pan.baidu.com/s/1C6_iXsKLcd-Fpa3-ZtZ9gg), [OneDrive](https://stuxidianeducn-my.sharepoint.com/:u:/g/personal/hwang_3_stu_xidian_edu_cn/EYFF4dO7XqFPu_DGQgM7s_wB8-_evmkgqLYHNxvAsjjmCA?e=DGC4iu), passwd: d7vw),
- pretrained model ([BaiduNetDisk 666MB](https://pan.baidu.com/s/1rVMa3KxQapSR34sScgUEkg), [OneDrive](https://stuxidianeducn-my.sharepoint.com/:u:/g/personal/hwang_3_stu_xidian_edu_cn/ESxq4fMVUOtGoTAXp_RoYBQBgdNYicTyqH_M6MsNkFLtNQ?e=gR0FXd), passwd: jtzu)
+Data: A2D extracted feature ([BaiduNetDisk 163GB](https://pan.baidu.com/s/1WNfPp7t7YAO5MnSnaABTPQ), [OneDrive 163GB](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/hwang_3_stu_xidian_edu_cn/Ev56vhmmNqhHqwgJJeorcSABc-A95f3JHFR8_ZXYhjmw3Q?e=IIPZj4), passwd: abzr), JHMDB extracted feature ([BaiduNetDisk 23GB](https://pan.baidu.com/s/1C6_iXsKLcd-Fpa3-ZtZ9gg), [OneDrive 23GB](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/hwang_3_stu_xidian_edu_cn/EucY9-MpDkVAoXeu_obhGdIBUBw0bdVLPWbwgq9KMqUgOA?e=Eq9s9c), passwd: d7vw),
+ pretrained model ([BaiduNetDisk 666MB](https://pan.baidu.com/s/1rVMa3KxQapSR34sScgUEkg), [OneDrive 666MB](https://stuxidianeducn-my.sharepoint.com/:u:/g/personal/hwang_3_stu_xidian_edu_cn/ESxq4fMVUOtGoTAXp_RoYBQBgdNYicTyqH_M6MsNkFLtNQ?e=GlObU2), passwd: jtzu)
 ```bash
 cat a2d_data.tara* | tar xvf -C dataset/A2D/preprocessed/
 cat jhmdb_data.tara* | tar xvf -C dataset/JHMDB/preprocessed/

@@ -27,8 +27,10 @@ A2D extracted feature ([BaiduNetDisk 163GB](https://pan.baidu.com/s/1WNfPp7t7YAO
 JHMDB extracted feature ([BaiduNetDisk 23GB](https://pan.baidu.com/s/1C6_iXsKLcd-Fpa3-ZtZ9gg), [OneDrive 23GB](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/hwang_3_stu_xidian_edu_cn/EucY9-MpDkVAoXeu_obhGdIBUBw0bdVLPWbwgq9KMqUgOA?e=Eq9s9c), passwd: d7vw), Split ([BaiduNetDisk](https://pan.baidu.com/s/182paqmm01KDjVHobAtGwtw), [OneDrive](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/hwang_3_stu_xidian_edu_cn/EhEdxyFytXxNqXNzL7D3VT8BzU8_bx0eGmOymvqLciLoHA?e=qKRBgG) passed: p0ak)    
 pretrained model ([BaiduNetDisk 666MB](https://pan.baidu.com/s/1rVMa3KxQapSR34sScgUEkg), [OneDrive 666MB](https://stuxidianeducn-my.sharepoint.com/:u:/g/personal/hwang_3_stu_xidian_edu_cn/ESxq4fMVUOtGoTAXp_RoYBQBgdNYicTyqH_M6MsNkFLtNQ?e=GlObU2), passwd: jtzu)
 ```bash
-cat a2d_data.tara* | tar xvf -C dataset/A2D/preprocessed/
-cat jhmdb_data.tara* | tar xvf -C dataset/JHMDB/preprocessed/
+cat a2d_data.tara* >> a2d_data.tar
+tar xvf a2d_data.tar -C dataset/A2D/preprocessed/
+cat jhmdb_data.tara* >> jhmdb_data.tar
+tar xvf jhmdb_data.tar -C dataset/JHMDB/preprocessed/
 tar xvf ckpt.tar -C checkpoint/ACGA/
 ```
 

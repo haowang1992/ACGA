@@ -81,5 +81,13 @@ If you found this code useful, please cite the following paper:
       pages={3939--3948},
       year={2019}
     }
+    @inproceedings{wang2020context,
+      title={Context Modulated Dynamic Networks for Actor and Action Video Segmentation with Language Queries},
+      author={Wang, Hao and Deng, Cheng and Ma, Fan and Yang, Yi},
+      booktitle={AAAI},
+      pages={12152--12159},
+      year={2020}
+    }
+}
 
 [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0)
